@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "SAI_BHARATH_KUMAR_BANDI_Project1"

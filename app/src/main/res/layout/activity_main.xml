@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+
+    tools:context=".MainActivity"
+    tools:ignore="Deprecated">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="136dp"
+        android:layout_y="119dp"
+        android:text="welcome"
+        android:textAllCaps="true"
+        android:textColor="#E91E63"
+        android:textSize="13pt"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <Button
+        android:id="@+id/first_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="317dp"
+        android:background="@android:color/holo_green_light"
+
+        android:text="ENTER"
+        android:textSize="7pt"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="493dp" />
+
+    <Button
+        android:id="@+id/Second_btn"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="252dp"
+        android:layout_y="317dp"
+
+        android:background="@android:color/holo_green_light"
+        android:text="DIAL"
+        android:textSize="7pt"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="493dp" />
+
+    <TextView
+        android:id="@+id/phone_number"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_x="13dp"
+        android:layout_y="250dp"
+        android:textColor="#2196F3"
+        android:textSize="8pt"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="657dp"
+        android:layout_y="204dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="38dp"
+        android:layout_y="186dp"
+        android:text="Press ENTER button to enter the phone number"
+        android:textColor="#E91E63"
+        android:textSize="7pt"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>
